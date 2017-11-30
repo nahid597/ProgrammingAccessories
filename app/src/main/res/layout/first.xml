@@ -31,7 +31,7 @@
         android:textSize="30dp"
         android:textColor="@color/white"
         android:textAlignment="viewStart"
-        android:background="@color/color1"
+        android:background="@null"
         android:layout_below="@+id/btn"
         android:layout_centerHorizontal="true" />
 
