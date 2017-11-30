@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/softui1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Search"
+            android:textColor="@color/white"
+            android:textSize="31dp"
+          />
+
+        <TextView
+            android:id="@+id/numbertheory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Number Theory"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            />
+
+        <Button
+            android:id="@+id/catalannumber"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="Catalan Number"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/eulertotientfunction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/catalannumber"
+            android:text="Euler totient function"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/fermatlitletheorim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/eulertotientfunction"
+            android:text="Fermat's litle theorem"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/factorials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/fermatlitletheorim"
+            android:text="Factorials"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/fibonacci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/factorials"
+            android:text="Fibonacci"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/gcd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/fibonacci"
+            android:text="GCD"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/modulararithmetic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/gcd"
+            android:text="Modular arithmetic"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/perfectnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/modulararithmetic"
+            android:text="Perfect number"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/primenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/perfectnumber"
+            android:text="Prime number"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/stirlingformula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/primenumber"
+            android:text="Stirling formula"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/datastructure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/stirlingformula"
+            android:text="Data structure"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:background="@null"
+            />
+
+        <Button
+            android:id="@+id/binaryindextree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/datastructure"
+            android:text="Binary index tree"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/disjointset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/binaryindextree"
+            android:text="Disjoint set"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/heap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/disjointset"
+            android:text="Heap"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/queue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/heap"
+            android:text="Queue"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/segmenttree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/queue"
+            android:text="Segment tree"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/tryy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/segmenttree"
+            android:text="Try"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/graphtheory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tryy"
+            android:text="Graph theory"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+
+           />
+
+
+        <Button
+            android:id="@+id/adjacencylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/graphtheory"
+            android:text="Adjacency list"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"
+            />
+
+
+        <Button
+            android:id="@+id/adjacencymatrix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/adjacencylist"
+            android:text="Adjacency matrix"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bellmanford"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/adjacencymatrix"
+            android:text="Bellman ford"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/bfs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/bellmanford"
+            android:text="BFS"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/connectedcomponent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/bfs"
+            android:text="Connected component"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/dfs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/connectedcomponent"
+            android:text="DFS"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/topologicalsort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/dfs"
+            android:text="Topological sort"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/warshall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/topologicalsort"
+            android:text="Waarshall"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/sorting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/warshall"
+            android:text="Sorting"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/bublesort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/sorting"
+            android:text="Buble sort"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/insertionsort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/bublesort"
+            android:text="Inertion sort"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/heapsort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/insertionsort"
+            android:text="Heap sort"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/mergesort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/heapsort"
+            android:text="Merge sort"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/quicksort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/mergesort"
+            android:text="Quick sort"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/selectionsort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/quicksort"
+            android:text="Selection sort"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/combinatorics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/selectionsort"
+            android:text="Combinatorics"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            />
+
+        <Button
+            android:id="@+id/combination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/combinatorics"
+            android:text="Combination"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/inclusionexcluiton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/combination"
+           android:text="Inclusion exclution"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/permutation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/inclusionexcluiton"
+            android:text="Permutaion"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:onClick="showContent"
+            android:background="@null"
+            android:textColor="@color/white"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
