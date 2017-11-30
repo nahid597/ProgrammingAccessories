@@ -15,7 +15,7 @@
         android:textColor="@color/white"
         android:onClick="showBtn2"
         android:textAlignment="viewStart"
-        android:background="@color/color1"
+        android:background="@null"
         android:layout_marginTop="21dp"
         android:layout_below="@+id/text"
         android:layout_centerHorizontal="true" />
@@ -46,7 +46,7 @@
         android:textColor="@color/white"
         android:textAlignment="viewStart"
         android:onClick="showBtn3"
-        android:background="@color/color1"
+        android:background="@null"
         android:layout_below="@+id/btn2"
         android:layout_centerHorizontal="true" />
 
@@ -68,7 +68,7 @@
         android:layout_width="80dp"
         android:layout_height="60dp"
         android:layout_marginTop="28dp"
-        android:background="@color/color1"
+        android:background="@null"
         android:text="  Exit"
         android:textAllCaps="false"
         android:textSize="30dp"
