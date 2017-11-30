@@ -12,7 +12,8 @@
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        />
 
     <Button
         android:id="@+id/button2"
@@ -22,7 +23,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="15sp"
         android:text="Back"
-        android:onClick="back"/>
+        android:onClick="back"
+        android:background="@null"/>
 
     <Button
         android:id="@+id/button3"
@@ -31,6 +33,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:text="Exit"
-        android:onClick="exitApp"/>
+        android:onClick="exitApp"
+        android:background="@null"/>
 
 </RelativeLayout>
