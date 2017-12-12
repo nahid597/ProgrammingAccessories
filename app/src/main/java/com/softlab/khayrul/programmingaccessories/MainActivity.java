@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.welcome);
         try
         {
-            InputStream file = getAssets().open("input.txt");
+            InputStream file = getAssets().open("programming.txt");
             Scanner in = new Scanner(file);
             int k = 0;
             while(in.hasNext())
