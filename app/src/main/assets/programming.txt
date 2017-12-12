@@ -1,0 +1,40 @@
+number theory
+Catalan number
+Euler totient function
+Fermats litle theorem
+Factorials
+Fibonacci
+GCD
+Modular arithmetic
+Perfect number
+Prime number
+Stirling formula
+
+data structure
+Binary index tree
+Disjoint set
+Heap
+Queue
+Segment tree
+trie
+
+Graph theory
+Adjacency matrix
+Bellman ford
+BFS
+Topological sort
+Warshall
+
+Sorting
+Buble sort
+Insertion
+Heap sort
+Merge sort
+Quick sort
+Selection
+
+Combinatorics
+Combination
+Inclusion exclution
+Permutation
+
